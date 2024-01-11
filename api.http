@@ -1,0 +1,11 @@
+GET http://localhost:3000/hello
+
+#######################
+
+POST http://localhost:3000/hello
+content-type: application/json
+
+{
+    "name": "Vuquinha",
+    "function": "Developer"
+}
